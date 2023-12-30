@@ -1,0 +1,175 @@
+
+a {
+  color: #066FFE;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:disabled {
+  color: grey
+}
+
+body {
+  background-color: #e5d1aa;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.advertisement-big-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.advertisement-header-row {
+  height: 4rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  vertical-align: top;
+}
+
+.advertisement-item {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  vertical-align: top;
+}
+
+.advertisement-item img {
+  width: 65%;
+}
+
+.advertisement-items-table table{
+  width: 100%;
+}
+
+.advertisement-side {
+  border-left: gray 1px solid;
+  padding-left: 2rem;
+  padding-top: 2.2rem;
+  vertical-align: top;
+}
+
+.advertisement-table {
+  width: 100%;
+}
+
+.floating-button {
+  height: 2.5rem;
+  margin-left: 1rem;
+  width: 2.5rem;
+}
+
+.form-input {
+  margin: auto;
+  max-width: 50%;
+}
+
+.half-width {
+  margin: auto;
+  max-width: 50%;
+}
+
+.listing-hr {
+  border: 0.7px solid gray;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.listing-price {
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.listing-name {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 90%;
+  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+  text-align: center;
+}
+
+.listing-side {
+  padding-right: 2rem;
+  vertical-align: top;
+}
+
+.listing-table {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.listing-table, .listing-table td {
+  border-collapse: collapse;
+}
+
+.listing-table th, .listing-table td {
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 0;
+  text-align: center;
+}
+
+.outer-div {
+  margin: auto;
+  max-width: 95%;
+  text-align: left;
+}
+
+.page-frame {
+  margin-top: 2rem;
+}
+
+/* RESPONSIVE ADJUSTMENTS
+-------------------------------- */
+
+@media only screen and (max-width: 900px) {
+
+  .listing-name {
+    font-size: 1.7rem;
+  }
+
+  .listing-cost {
+    font-size: 1.2rem;
+  }
+}
+
+/* Fix for Bootstrap 3 with Angular UI Bootstrap */
+
+.modal { 
+	display: block;
+}
+
+/* Custom dialog/modal headers */
+
+.dialog-header-error { background-color: #d2322d; }
+.dialog-header-wait { background-color: #428bca; }
+.dialog-header-notify { background-color: #eeeeee; }
+.dialog-header-confirm { background-color: #333333; }
+.dialog-header-error span, .dialog-header-error h4,
+.dialog-header-wait span, .dialog-header-wait h4,
+.dialog-header-confirm span, .dialog-header-confirm h4 { color: #ffffff; }
